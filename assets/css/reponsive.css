@@ -1,0 +1,82 @@
+@media (max-width: 46.1875em) {
+    .blockstyle{
+        display: block;
+    }
+    .s-mt8 {
+        margin-top: 8px;
+    }
+    .s-mt16 {
+        margin-top: 16px;
+    }
+    .s-full-width {
+        width: 100%;
+    }
+    .mr-none {
+        margin-right: initial !important;
+    }
+    .ml-none {
+        margin-left: initial !important;
+    }
+    #header {
+        overflow: hidden;        
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .menu-btn {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        padding: 7px 39px;
+        color: #fff
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+
+}
+@media (max-width: 63.9375em) {
+    .contact-form .name-input, 
+    .contact-form .email-input, 
+    .contact-form .message-input{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .buy-btn {
+        padding: 16px 15px;
+    }
+    .send-btn {
+        padding: 15px 17px !important;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .footer-icon  {
+        font-size: 48px;
+    }
+    .footer-icon a {
+        margin: 0 8px;
+    }
+    .copyright {
+        padding: 8px 0;
+    }
+    .copyright a {
+        padding: 0 8px;
+    }
+}
