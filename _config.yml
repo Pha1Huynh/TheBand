@@ -1,1 +1,3 @@
 theme: jekyll-theme-leap-day
+git commit --allow-empty -m "Trigger rebuild"
+git push
